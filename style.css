@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0a0f0a;
+    color: #ccffcc;
+}
+
+header {
+    background: linear-gradient(to right, #001100, #003300, #002200);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 20px #39ff14;
+}
+
+header h1 {
+    color: #39ff14;
+    text-shadow: 0 0 10px #39ff14;
+}
+
+
+header h2 {
+    color: #39ff14;
+    text-shadow: 0 0 10px #39ff14;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+nav a {
+    color: #00ff88;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: 1px solid #00ff88;
+    border-radius: 5px;
+    transition: 0.3s;
+    background-color: transparent;
+}
+
+nav a:hover {
+    background-color: #00ff88;
+    color: #0a0f0a;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    border: 1px solid #00ff88;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00ff88;
+    background-color: #0d1a0d;
+}
+
+
+
+section h2 {
+    color: #66ff66;
+    text-shadow: 0 0 5px #66ff66;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000c00;
+    color: #88ffcc;
+    font-size: 0.9em;
+}
+
+section img {
+    width: 400px;           /* defina o tamanho desejado */
+    height: 300px;
+    object-fit: cover;      /* garante que a imagem preencha sem distorcer */
+    border-radius: 10px;
+    margin-top: 15px;
+    box-shadow: 0 0 10px #00ff88;
+}
+
+img:hover {
+    transform: scale(1.05) rotate(3deg);  /* aumenta e gira um pouco ao passar o mouse */
+    box-shadow: 0 0 20px #00ff88;
+}
+
+a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: inherit; /* Faz o texto ficar com a mesma cor do restante */
+}
